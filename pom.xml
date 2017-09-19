@@ -110,6 +110,17 @@
 				<maven.compiler.source>1.6</maven.compiler.source>
 				<maven.compiler.target>1.6</maven.compiler.target>
 			</properties>
+
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<artifactId>maven-jar-plugin</artifactId>
+							<version>3.0.2</version>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
 		</profile>
 	</profiles>
 </project>
